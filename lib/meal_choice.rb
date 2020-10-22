@@ -3,5 +3,8 @@
 
 def meal_choice(veg , side , protein = "meat")
   puts "What a nutritious meal!"
-  puts "A plate of #{protein} with #{veg} and #{side}."
+  meal = "A plate of #{protein} with #{veg} and #{side}."
+  puts meal
+  return meal
+  
 end
